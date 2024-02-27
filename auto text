@@ -1,0 +1,13 @@
+import pyautogui
+from time import sleep
+sleep(5)
+for i in range(0,10):
+    if i % 2 == 0 :
+         pyautogui.write(' joss python?',interval=0.001)
+         pyautogui.press('enter')
+    elif i % 3 == 0:
+     pyautogui.write('funny python',interval=0.001)
+     pyautogui.press('enter')
+    else:
+     pyautogui.write('easy python',interval=0.001)
+     pyautogui.press('enter')
